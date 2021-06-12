@@ -55,3 +55,11 @@ $ docker exec -i -t bitcoind-node bash # コンテナのなかに入る
 ```shell
 * * * * * bundle exec ruby /path/to/script_root/execute.rb
 ```
+
+
+# Slackへの通知方法
+.envにある`SLACK_TOKEN`と`NOTIFY_CHANEL`希望の値に書き換える必要がある。
+- `SLACK_TOKEN` = チャンネルのTOKEN
+- `NOTIFY_CHANEL` = 通知したいチャンネル名
+
+

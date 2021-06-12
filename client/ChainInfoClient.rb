@@ -16,6 +16,10 @@ class ChainInfoClient
     fetch['headers']
   end
 
+  def get_dump
+    JSON.dump response
+  end
+
   private
 
   def fetch
